@@ -10,8 +10,15 @@ Or horizontally, left or right:
 
 ![](example/horizontalScroll.gif)
 
+## Usage
 
-# API
+To use this plugin, add `spinner` as a [dependency in your pubspec.yaml file](https://flutter.dev/platform-plugins/).
+
+## Example
+
+See the example project in the repo for a quick demo
+
+## API
 
 Spinner has several useful parameters. You can see them used in the example file
 
