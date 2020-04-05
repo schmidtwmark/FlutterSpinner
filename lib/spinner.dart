@@ -55,9 +55,7 @@ class Spinner extends StatefulWidget {
       this.zoomFactor: 1.0,
       this.spinDirection: SpinnerDirection.up});
 
-  static void emptyCallback(int index) {
-    print("Ending at index $index");
-  }
+  static void emptyCallback(int index) {}
 
   @override
   State<StatefulWidget> createState() => _SpinnerState();

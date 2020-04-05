@@ -1,14 +1,37 @@
-# spinner
+# Spinner
 
-A new Flutter package project.
+This flutter package implements a simple Spinner animation that cycles through any number of fixed size child widgets. Useful for selecting a random word from a list and displaying it to a user.
 
-## Getting Started
+It can animate vertically, up or down:
 
-This project is a starting point for a Dart
-[package](https://flutter.dev/developing-packages/),
-a library module containing code that can be shared easily across
-multiple Flutter or Dart projects.
+![](example/VerticalScroll.gif)
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+Or horizontally, left or right:
+
+![](example/horizontalScroll.gif)
+
+
+# API
+
+Spinner has several useful parameters. You can see them used in the example file
+
+* duration: change the duration of the animation
+
+* animationSpeed: change how fast the animation moves and what index the animation lands on
+
+* spinDirection: change the direction of animation
+
+* containerCount: number of containers that should appear on screen
+
+* containerSize: for vertical scroll, this is the width of each container produced by the builder function. For horizontal, this is the height
+
+* builder: a function that takes in an integer and returns a widget with height/width of containerSize
+
+* curve: the curve for the animation to follow. Defaults to easeInOutCubic
+
+* callback: a function called when the animation completes
+
+zoomFactor: optional zoom in by this amount during the animation:
+
+![](example/zoom.gif)
+
