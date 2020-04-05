@@ -1,3 +1,3 @@
-## [1.0.0] - Initial release
+## [1.0.1] - Initial release
 
 * Initial release supporting fixed size containers scrolling vertically and horizontally.
